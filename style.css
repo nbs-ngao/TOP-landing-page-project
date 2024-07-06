@@ -1,0 +1,129 @@
+/***********CSS Reset starts here **************/
+/*   1. Use a more-intuitive box-sizing model. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*   2. Remove default margin */
+* {
+  margin: 0;
+}
+/*  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*   5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*   6. Remove built-in form typography styles */
+input, button, textarea, select {
+  font: inherit;
+}
+/*  7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*  8. Create a root stacking context */
+#root, #__next {
+  isolation: isolate;
+}
+
+/***********CSS Reset ends here **************/
+/* Design Specs
+--dark background color : #1F2937
+--Hero main text : 48px extra-bold #F9FAF8
+--Hero secondary text, Header Link Text : 18px #E5E7EB
+--Header Logo Text : 24px #F9FAF8
+*/
+/***** Style Section Hero Starts Here ****/
+.center {
+  width: 65%;
+  margin: 0 auto;
+}
+
+section.hero {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  /* border: 2px solid lightcoral; */
+}
+
+.header-links {
+  /* border: 2px solid greenyellow; */
+  /* flex-grow: 2; */
+  /* flex-basis: 500px; */
+}
+.header-links ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  list-style-type: none;
+  
+}
+
+.logo /*header h2*/ {
+  font-size: 24px;
+  color: #F9FAF8;
+  /* flex-grow: 4; */
+  /* border: 2px solid whitesmoke; */
+
+}
+
+.hero-cta {
+  /* border: 2px solid whitesmoke; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.hero-cta-description {
+  /* border: 2px solid lightcoral; */
+  margin-top: 60px;
+  flex-basis: 500px;
+  /* width: 70%; */
+  /* flex-grow: 0; */ 
+
+}
+
+.hero-cta-image {
+  flex-basis: 480px;
+  /* height: 200px; */
+  /* border: 2px solid lawngreen; */
+  /* flex-shrink: 0; */
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold; 
+  color: #F9FAF8;
+}
+
+.sign-up-btn {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px  ;
+  border: none;
+}
+
+
+/***** Style Section Hero ends Here ****/
+
+/***** Style Section Hero Starts Here ****/
+/***** Style Section Hero ends Here ****/
