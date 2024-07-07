@@ -196,6 +196,31 @@ section.quote {
 }
 /***** Style Section Quote ends Here ****/
 /******************************************************/
-/***** Style Section Hero Starts Here ****/
-/***** Style Section Hero ends Here ****/
+/***** Style Section last Starts Here ****/
+.last {
+  padding: 100px;
+}
+.last-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.last-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.last-container .sign-up-btn {
+  border: 2px solid #E5E7EB;
+  
+}
+
+
+/***** Style Section last ends Here ****/
 /******************************************************/
