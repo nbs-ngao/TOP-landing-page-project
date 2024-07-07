@@ -168,9 +168,33 @@ h1 {
 
 }
 /***** Style Section information ends here ****/
+
 /******************************************************/
-/***** Style Section Hero Starts Here ****/
-/***** Style Section Hero ends Here ****/
+
+/***** Style Section Quote Starts Here ****/
+section.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1F2937;
+
+}
+
+.quote-content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+}
+
+.legend {
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+/***** Style Section Quote ends Here ****/
 /******************************************************/
 /***** Style Section Hero Starts Here ****/
 /***** Style Section Hero ends Here ****/
